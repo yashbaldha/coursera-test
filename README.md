@@ -1,37 +1,86 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/yashbaldha/coursera-test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yashbaldha/coursera-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html>
+	<head>
+		<title> My Project </title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		
+		<style>
+			section
+			{
+				border: 2px solid black;
+				background-color:gray;
+				width: 100%;
+				height: 150px;
+				color: black;
+				position: relative;
+				overflow: auto;
+				margin-top:15px;
+			}
+			#r11
+			{
+				border: 1px solid black;
+				font-family: italic;
+				background-color: red;
+				text align: centre;
+				font-weight: bold;
+				font-size: 125%;
+				width: 30%;
+				margin-bottom: 5px;
+				margin-top: 0;
+				margin-left: 70%;
+				padding: 5px;
+			}
+			#r12
+			{
+				border: 1px solid black;
+				font-family: italic;
+				background-color: red;
+				text align: centre;
+				font-weight: bold;
+				font-size: 125%;
+				width: 30%;
+				margin-bottom: 5px;
+				margin-top: 0;
+				margin-left: 70%;
+				padding: 5px;
+			}
+			#r13
+			{
+				border: 1px solid black;
+				font-family: italic;
+				background-color: red;
+				text align: centre;
+				font-weight: bold;
+				font-size: 125%;
+				width: 30%;
+				margin-bottom: 5px;
+				margin-top: 0;
+				margin-left: 70%;
+				padding: 5px;	
+			}
+		</style>
+	</head>
+	<body>
+	<center> <h3>Our Menu</h3> </center>
+		<div class="container-fluid">
+			<div class="row">
+				<div class=" content col-lg-4 col-md-6 col-sm-12">
+					<section>
+					<div id="r11">Chicken</div>
+					<p>Iorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolerm manga aliqua. Ut enim ad minim veniam , quis nostrud excertion ullamaco laboris nisi ut aliquip ex ea commado caonsequat</p>
+					</section>
+				</div>
+				<div class=" content col-lg-4 col-md-6 col-sm-12"><section>
+					<div id="r12">Beef</div>
+					<p>Iorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolerm manga aliqua. Ut enim ad minim veniam , quis nostrud excertion ullamaco laboris nisi ut aliquip ex ea commado caonsequat</p>
+					</section> 
+				</div>
+				<div class=" content col-lg-4 col-md-12 col-sm-12"><section>
+					<div id="r13">Sushi</div>
+					<p>Iorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolerm manga aliqua. Ut enim ad minim veniam , quis nostrud excertion ullamaco laboris nisi ut aliquip ex ea commado caonsequat</p>
+					</section>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
